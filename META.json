@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "HTTP body parser toolkit",
    "author" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ],
@@ -43,6 +43,9 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::MultiPart::Parser" : "0",
+            "JSON" : "2",
+            "URL::Encode" : "0",
             "perl" : "5.008005"
          }
       },
@@ -53,5 +56,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/HTTP-BodyParser/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/HTTP-BodyParser",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/HTTP-BodyParser.git",
+         "web" : "https://github.com/tokuhirom/HTTP-BodyParser"
+      }
+   },
    "version" : "0.01"
 }
